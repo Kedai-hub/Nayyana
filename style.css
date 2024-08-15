@@ -68,34 +68,40 @@ main {
     color: white;
 }
 
-.product-card {
+.card {
     border: 1px solid #ccc;
-    padding: 20px;
-    text-align: center;
-    background-color: #f0f0f0;
     border-radius: 5px;
-    margin: 0 auto 20px;
-    margin-left: 20px;
+    padding: 20px;
 }
 
-.card-body {
+.product-card {
+    width: 200px;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
 }
 
-.product-card .item {
+.product-card p {
+    color: black;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-title {
     font-weight: bold;
 }
 
-.btn-wide {
-    width: 100%;
+.card-text {
+    color: #888;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
 }
 
 /* Chat WhatsApp */
-
 .wa_btn {
     cursor: pointer;
     background-color: #25D366;
